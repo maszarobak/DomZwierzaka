@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  position: relative;
 }
 *{
   box-sizing: border-box;
@@ -109,3 +110,60 @@ height: 70px;
    text-decoration: none;
   }
     /*<!--------x--------  Home -----------x---------->*/
+
+
+
+    .column_nowi {
+      float: left;
+      width: 25%;
+      padding: 5px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      height: 200px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+
+  
+    
+    #page-container {
+      position: relative;
+      min-height: 100vh;
+    }
+    
+   
+    
+    #footer {
+      position: absolute;
+      background-color: brown;
+      bottom: 0;
+      width: 100%;
+      height: 350px;            /* Footer height */
+    }
+    .column_icon{
+      
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        transition: 0.3s;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 350px;
+                     
+    }
+    .column{
+      
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+      transition: 0.3s;
+           
+  }
+    
