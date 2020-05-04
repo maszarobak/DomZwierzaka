@@ -111,7 +111,11 @@ height: 70px;
   }
     /*<!--------x--------  Home -----------x---------->*/
 
-
+.text_onas{
+  padding: 0 40px;
+  font-size: 20px;
+  text-align: center;
+}
 
     .column_nowi {
       float: left;
